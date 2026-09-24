@@ -6,5 +6,7 @@ I completed the literature reviews, preliminary, and critical design for this pa
 This project tested my creativity and problem-solving skills. With little guidlines and peer support, I was able to use my engineering skills and innovative mindset to combine literature, analytical methods, and engineering judgement to generate a feasible design. 
 
 Below you can see the design report and presentation that was a culmination of my work.
+
 [Design Report](ballute_design_report_athan_stefanos.pdf)
+
 [Presentation](ballute_design_presentation_athan_stefanos.pdf)
