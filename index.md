@@ -1,6 +1,3 @@
----
-title: "test"
----
 # Athan Stefanos - Engineering Design Portfolio
 
 Email: athanstefanos@gmail.com
