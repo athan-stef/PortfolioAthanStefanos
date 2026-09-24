@@ -1,10 +1,6 @@
-<style>
-  header .container h1, 
-  header h1, 
-  .page-header h1 { 
-    display: none !important; 
-  }
-</style>
+---
+title: "test"
+---
 # Athan Stefanos - Engineering Design Portfolio
 
 Email: athanstefanos@gmail.com
