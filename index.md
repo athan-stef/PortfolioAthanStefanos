@@ -6,6 +6,6 @@ PENDING INSERTION OF MORE PROJECTS
 
 ## Projects
 *This is currently a placeholder for further .md pages to come when i do my projects*
-* [Portfolio up until 2025](AthanStefanosEngPortfolio2025.pdf)
-* [Demo Project](demo_project1.md) - A guide for my future self
+* [Portfolio up until EOY 2025](AthanStefanosEngPortfolio2025.pdf)
+* The design of a novel high alttitude recovery [parachute](ballute.md)
 
