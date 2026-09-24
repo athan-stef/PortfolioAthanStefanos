@@ -1,4 +1,8 @@
-# My Engineering and Design Portfolio
+# Athan Stefanos - Engineering Design Portfolio
+
+Email: athanstefanos@gmail.com
+
+LinkedIn: www.linkedin.com/in/athan-stefanos-5a229624b
 
 Welcome to my portfolio! Please make yourself comfortable and scroll through the wonders (or perils) of my work.
 
