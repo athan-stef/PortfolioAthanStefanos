@@ -11,4 +11,6 @@ I completed this large group project in the penultimate year of my Aerospace eng
 This project taught me how to manage multiple group members within the scope of a project and learn how to effectively meet deliverables and deadlines. Technically I grew my skills in stability analysis and large scale CAD models.
 
 [Final Design Report](fvd_fdr_athan_stefanos.pdf)
+
+
 [Final Design Presentation](fvd_final_presentation_athan_stefanos.pdf)
