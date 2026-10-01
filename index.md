@@ -9,3 +9,4 @@ Welcome to my portfolio! Please make yourself comfortable and scroll through the
 ## Projects
 * [Portfolio up until 2026](AthanStefanosEngPortfolio2025.pdf)
 * [BALLUTE](ballute.md) - High Alttitude Recovery Parachute
+* [Commercial Jet Aircraft Design](flight_vehicle_dynamics.md)
