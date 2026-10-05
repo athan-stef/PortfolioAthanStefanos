@@ -16,4 +16,5 @@ Clearly this is a strange parachute, and it will be strange to make. It has been
 
 #### Behaviour
 
+<img src="ballute_vel_CFD.png" alt="Ballute Airflow CFD" width="500">
 
