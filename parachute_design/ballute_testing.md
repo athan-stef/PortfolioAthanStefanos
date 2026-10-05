@@ -15,6 +15,6 @@ There are a few things I want to get from manufacturing and testing this parachu
 Clearly this is a strange parachute, and it will be strange to make. It has been made on the hobby level and [professional level](https://www.youtube.com/watch?v=4WhBfoOEUjY) so it is certainly possible. The student team is currently manufacturing one, the steps are clear and feasible. I wish to try and improve upon this process and find downfalls that can be improved through trial and error.
 
 #### Behaviour
-
-<img src="ballute_vel_CFD.png" alt="Ballute Airflow CFD" width="500">
+The ballute is a device made for high subsonic and supersonic airflow, so its behaviour in lower speed regimes is of great interest. Companies such as [Copenhagen Sub-orbitals](https://copenhagensuborbitals.com/) have done low speed drop tests and the ballute performed well, inflating and effectively slowing the payloads descent. Doing further drop tests will validate estimates of inflation pressure at certain flight stages as detailed in the [report](../ballute.md).  
+<img src="ballute_vel_CFD.png" alt="Ballute Airflow CFD" width="300">
 
