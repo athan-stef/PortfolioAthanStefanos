@@ -15,5 +15,5 @@ Welcome to my portfolio! Please make yourself comfortable and peruse through the
 
 ## CAD Design
 This section contains CAD projects from October 2026 onwards that were part of small repairs or projects to demonstrate my modelling ability.
-* [Project CAD](CAD_project.md)
-* [Miscellaneous CAD](CAD_personal.md)
+* [Project CAD](CAD/CAD_project.md)
+* [Miscellaneous CAD](CAD/CAD_personal.md)
