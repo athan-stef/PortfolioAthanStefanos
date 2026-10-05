@@ -1,7 +1,5 @@
 # Athan Stefanos - Engineering Design Portfolio
 
-[Resume](AthanStefanosResume.pdf)
-
 Email: athanstefanos@gmail.com
 
 LinkedIn: [www.linkedin.com/in/athan-stefanos-5a229624b](www.linkedin.com/in/athan-stefanos-5a229624b)
