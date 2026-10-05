@@ -1,6 +1,6 @@
 ## Ballute Testing
 ### Brief
-During my time at Monash High Powered Rocketry I designed a high alttitude recovery parachute. This is a novel concept called a ballute. For more details see the [report](PortfolioAthanStefanos/ballute.md) I wrote on it. 
+During my time at Monash High Powered Rocketry I designed a high alttitude recovery parachute. This is a novel concept called a ballute. For more details see the [report](../ballute.md) I wrote on it. 
 
 <img src="ballute_diagram_airflow.png" alt="Ballute Airflow Diagram" width="500">
 
