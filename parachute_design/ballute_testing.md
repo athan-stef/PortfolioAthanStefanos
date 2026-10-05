@@ -16,5 +16,6 @@ Clearly this is a strange parachute, and it will be strange to make. It has been
 
 #### Behaviour
 The ballute is a device made for high subsonic and supersonic airflow, so its behaviour in lower speed regimes is of great interest. Companies such as [Copenhagen Sub-orbitals](https://copenhagensuborbitals.com/) have done low speed drop tests and the ballute performed well, inflating and effectively slowing the payloads descent. Doing further drop tests will validate estimates of inflation pressure at certain flight stages as detailed in the [report](../ballute.md).  
+
 <img src="ballute_vel_CFD.png" alt="Ballute Airflow CFD" width="300">
 
