@@ -23,3 +23,5 @@ The rigid-body airflow simulation of the ballute, conducted at an airspeed of 12
 
 As seen below, this flow structure can be expected for high and low speed flight, indicating a low speed test will be qualitatively valuable.
 
+<img src="ballute_vel_CFD_lowspeed.png" alt="Ballute Airflow CFD Low Speed" width="300">
+
