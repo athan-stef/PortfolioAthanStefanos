@@ -11,7 +11,7 @@ Now that I have graduated others will carry on the final manufacturing and testi
 ## Goals and Expectations
 There are a few things I want to get from manufacturing and testing this parachute.
 
-###Manufacturability 
+### Manufacturability 
 Clearly this is a strange parachute, and it will be strange to make. It has been made on the hobby level and [professional level](https://www.youtube.com/watch?v=4WhBfoOEUjY) so it is certainly possible. The student team is currently manufacturing one, the steps are clear and feasible. I wish to try and improve upon this process and find downfalls that can be improved through trial and error.
 
 ### Behaviour
@@ -24,7 +24,7 @@ The parameters for the below simulation are:
 * Airspeed 140 m/s
 * Air Density 0.17 $kg/m^3$
 * Air Dynamic Viscosity  0.00001472 Pa s (27 km)
-* Reynolds Number xxx (Ref length 1.456 m) 
+* Reynolds Number 2,368,682 (Ref length 1.456 m) 
 
 <img src="ballute_vel_CFD.png" alt="Ballute Airflow CFD" width="300">
 
@@ -34,11 +34,11 @@ A few questions are initially apparent.
 ** What causes the sharp gradient of velocity that leads from the burble fence?
 ** What causes the high speed region directly aft of the ballute proceeding the stagnation zone?
 
-Comparing this to the incompressible flow around a cylinder the similarities are clear. With stagnation regions fore and aft of the parachute and accelerating flow over the burble fence. 
+Comparing this to the potential flow around a cylinder (Due to high Re) the similarities are clear. With stagnation regions fore and aft of the parachute and accelerating flow over the burble fence. 
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqFnKEyuZHl429ivRcRD5EvWMEQvko3Y0rIXkGOGuapmUb4xLW3Ut3zwt1&s=10" alt="Description of image" width="300" height="300">
 
-However the more complex wake characteristics apparent in the CFD are not 
+However the more complex wake characteristics apparent in the CFD are not present for standard cylinder flow. Perhaps looking at a triangular bluff body will reveal the mechanism behind these formations.
 
 
 
