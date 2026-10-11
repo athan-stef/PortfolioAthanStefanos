@@ -19,3 +19,7 @@ The ballute is a device made for high subsonic and supersonic airflow, so its be
 
 <img src="ballute_vel_CFD.png" alt="Ballute Airflow CFD" width="300">
 
+The rigid-body airflow simulation of the ballute, conducted at an airspeed of 129 m/s and an altitude of 27 km, indicates an expected stagnation region along the leading edge of the burble fence, followed by extensive flow separation downstream. This separated flow is the primary mechanism contributing to the ballute’s aerodynamic drag. The resulting pressure distribution may also influence the ballute’s structural deformation, causing the forward surface to flex inward while the aft region bulges outward in response to the lower pressures along the sides.
+
+As seen below, this flow structure can be expected for high and low speed flight, indicating a low speed test will be qualitatively valuable.
+
