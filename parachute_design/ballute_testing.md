@@ -21,10 +21,10 @@ The ballute is a device made for high subsonic and supersonic airflow, so its be
 Before manufacturing the ballute I'd like to write some qualitative discussion on CFD that was conducted for this parachute to better understand the flow characteristics around the parachute. 
 
 The parameters for the below simulation are:
-** Airspeed 140 m/s
-** Air Density 0.17 $kg/m^3$
-** Air Dynamic Viscosity  0.00001472 Pa s (27 km)
-** Reynolds Number xxx (Ref length 1.456 m) 
+* Airspeed 140 m/s
+* Air Density 0.17 $kg/m^3$
+* Air Dynamic Viscosity  0.00001472 Pa s (27 km)
+* Reynolds Number xxx (Ref length 1.456 m) 
 
 <img src="ballute_vel_CFD.png" alt="Ballute Airflow CFD" width="300">
 
