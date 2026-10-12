@@ -4,10 +4,10 @@ As part of a university subject I studied Finite Element Analysis both theoretic
 * An investigation into the effects of a hatch cutout on the strength of a composite rocket body.
 
 ### Responsibilities
-- 3D Modelling
+- 3D modelling
 - FEA
-- Result Interpretation
-- Report Writing
+- Result analysis
+- Report writing
 
 ### Documents
 This project increased my skill in meshing, simulation, and analysis of isotropic and anisotropic structures in Abaqus.
