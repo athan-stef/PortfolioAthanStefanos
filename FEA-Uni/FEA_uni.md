@@ -1,7 +1,7 @@
 # Finite Element Analysis
 As part of a university subject I studied Finite Element Analysis both theoretically, and in practice with Abaqus. During the semester I completed two assignments:
 * The modelling and analysis of a Supermarine Spitfire wing structure under maximum lift loading.
-* The investigation into the effects of a hatch cutout on the strength of a composite rocket body.
+* An investigation into the effects of a hatch cutout on the strength of a composite rocket body.
 
 ### Responsibilities
 - 3D Modelling
