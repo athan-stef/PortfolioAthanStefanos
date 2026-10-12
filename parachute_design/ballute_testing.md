@@ -40,6 +40,9 @@ However the more complex wake characteristics apparent in the CFD simulation are
 
 We can see here the flow has a significant free shear layer similar to the ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation (is that what it's called?). The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the ballute and the spanwise domain walls are causing artificial acceleration of the flow which may exaggerate actual flow acceleration.
 
+## Geometry Sizing
+For the intended rocket Daybreak, the ballute was sized to a diameter of 1.465 m. This is a little large so a new diameter will be sized to match the Reynolds number of the flow. As seen in the [report](ballute.md) the lowest pressure ratio between the stagnated air inside the ballute and the airstream is at maximum dynamic pressure, and at the lowest speed just before deployment of the main parachute. 
+
 
 
 
