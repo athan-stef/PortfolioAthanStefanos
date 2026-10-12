@@ -10,7 +10,7 @@ Welcome to my portfolio! Please make yourself comfortable and peruse through the
 
 ### Engineering Design
 * [Portfolio up until 2026](AthanStefanosEngPortfolio2025.pdf)
-* [BALLUTE](ballute.md) - High Alttitude Recovery Parachute
+* [BALLUTE](Ballute%20-%20HPR/ballute.md) - High Alttitude Recovery Parachute
 * [Commercial Jet Aircraft Design](Flight%20Vehicle%20Dynamics%20-%20Uni/flight_vehicle_dynamics.md) - Stick Bug
 * [Finite Element Analysis](FEA-Uni/FEA_uni.md) - Wing Structure & Rocket Body
 
