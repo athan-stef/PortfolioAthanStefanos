@@ -12,7 +12,7 @@ As part of a university subject I studied Finite Element Analysis both theoretic
 ### Documents
 This project increased my skill in meshing, simulation, and analysis of isotropic and anisotropic structures in Abaqus.
 
-[Aluminium Wing Structure](fvd_fdr_athan_stefanos.pdf)
+[Aluminium Wing Structure](AthanStefanos_MAE4426_AS1.pdf)
 
 
-[Composite Rocket Body Bending Analysis](fvd_final_presentation_athan_stefanos.pdf)
+[Composite Rocket Body Bending Analysis](AthanStefanos_MAE4426_AS2.pdf)
