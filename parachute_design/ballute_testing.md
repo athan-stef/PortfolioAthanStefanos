@@ -18,7 +18,7 @@ Clearly this is a strange parachute, and it will be strange to make. It has been
 The ballute is a device made for high subsonic and supersonic airflow, so its behaviour in lower speed regimes is of great interest. Companies such as [Copenhagen Sub-orbitals](https://copenhagensuborbitals.com/) have done low speed drop tests and the ballute performed well, inflating and effectively slowing the payloads descent. Doing further drop tests will validate estimates of inflation pressure at certain flight stages as detailed in the [report](../ballute.md). Additionally, physically verifying the ballute remains positively pressured at low speeds is a great sanity check for the final stage of descent for this parachute before the main parachute deploys.
 
 ## Aerodynamic Conversation?
-Before manufacturing the ballute I'd like to write some qualitative discussion on CFD that was conducted for this parachute to better understand the flow characteristics around the parachute. While the simulation could be improved, it will still provide valuable insights. 
+Before manufacturing the ballute I'd like to write some qualitative discussion on [CFD](Ballute%20CFD%20Validation%20Report) that was conducted for this parachute to better understand the flow characteristics around the parachute. While the simulation could be improved, it will still provide valuable insights. 
 
 The parameters for the below simulation are:
 * Airspeed 140 $m\ s^{-1}$
@@ -41,7 +41,9 @@ However the more complex wake characteristics apparent in the CFD simulation are
 We can see here the flow has a significant free shear layer similar to the ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation (is that what it's called?). The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the ballute and the spanwise domain walls are causing artificial acceleration of the flow which may exaggerate actual flow acceleration.
 
 ## Geometry Sizing
-For the intended rocket Daybreak, the ballute was sized to a diameter of 1.465 m. This is a little large so a new diameter will be sized to match the Reynolds number of the flow. As seen in the [report](ballute.md) the lowest pressure ratio between the stagnated air inside the ballute and the airstream is at maximum dynamic pressure, and at the lowest speed just before deployment of the main parachute. 
+For the intended rocket Daybreak, the ballute was sized to a diameter of 1.465 m. This is a little large so a new diameter will be sized to match the Reynolds number of the flow. As seen in the [report](ballute.md) the lowest pressure ratio between the stagnated air inside the ballute and the airstream is at maximum dynamic pressure, and at the lowest speed just before deployment of the main parachute. The lower speed will be targeted for Reynolds similarity. Additionally, it would be cool to use this parachute on a L1 Rocket. Some main requirements are
+* Target descent rate of 5 m/s
+* Rocket weight of 
 
 
 
