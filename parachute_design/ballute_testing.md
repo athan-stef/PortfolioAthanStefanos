@@ -41,7 +41,16 @@ However the more complex wake characteristics apparent in the CFD simulation are
 We can see here the flow has a significant free shear layer similar to the ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation (is that what it's called?). The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the ballute and the spanwise domain walls are causing artificial acceleration of the flow which may exaggerate actual flow acceleration.
 
 ## Geometry Sizing
+The rocket has a designed diameter of 1.465 metres for its intended rocket. Creating a smaller test article is less expensive and easier to test. Implementing Reynolds similarity will match the inertia dominated flow of the ballute in its design case. The desirable characteristic is the diameter so that will be used to inform the required descent velocity for testing. 
 
+Well, forget all of that. Upon initial iterations not documented here, it seems the parachute needs to be quite large to match the Reynolds number without requiring a ridiculous airspeed. It appears drop testing will not be feasible as the airspeed requirements are too large. As a matter of fact, I am legally bound to 100 km/h on Victorian roads so unless I find a private runway, I am also restricted by testing speeds. It would have been nice to control the diameter over the airspeed but it appears for this high Reynolds number, the highway speed limit will be the limiting factor.
 
+$$
+L = \frac{Re \mu}{\rho V} = 1.158 m
+$$
+
+That diameter is a little larger than I'd like which is unfortunate, but it will make some other sewing problems more manageable down the line, there's always a good view at the end of the world! This test parachute will be 79% the size of the original. Now that the preliminary maths is complete. It is time for material selection!
+
+## Material Selection
 
 
