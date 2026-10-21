@@ -43,7 +43,7 @@ We can see here the flow has a significant free shear layer similar to the ballu
 ## Geometry Sizing
 The rocket has a designed diameter of 1.465 metres for its intended rocket. Creating a smaller test article is less expensive and easier to test. Implementing Reynolds similarity will match the inertia dominated flow of the ballute in its design case. The desirable characteristic is the diameter so that will be used to inform the required descent velocity for testing. 
 
-Well, forget all of that. Upon initial iterations not documented here, it seems the parachute needs to be quite large to match the Reynolds number without requiring a ridiculous airspeed. It appears drop testing will not be feasible as the airspeed requirements are too large. As a matter of fact, I am legally bound to 100 km/h on Victorian roads so unless I find a private runway, I am also restricted by testing speeds. It would have been nice to control the diameter over the airspeed but it appears for this high Reynolds number, the highway speed limit will be the limiting factor.
+Well, forget all of that. Upon initial iterations not documented here, it seems the parachute needs to be quite large to match the Reynolds number without requiring a ridiculous airspeed. It appears drop testing will not be feasible as the airspeed requirements are too large. As a matter of fact, I am legally bound to 100 km/h on Victorian roads so unless I find a private runway, I am also restricted by testing speeds. It would have been nice to control the diameter over the airspeed but it appears for this high Reynolds number, the road laws will be the limiting factor.
 
 $$
 L = \frac{Re \mu}{\rho V} = 1.158 m
@@ -52,5 +52,9 @@ $$
 That diameter is a little larger than I'd like which is unfortunate, but it will make some other sewing problems more manageable down the line, there's always a good view at the end of the world! This test parachute will be 79% the size of the original. Now that the preliminary maths is complete. It is time for material selection!
 
 ## Material Selection
+For the original design, the selected material is [70 GSM ripstop polyester](https://www.extremtextil.de/en/polyester-pu-coated-70g-sqm/70278.WEI) with a polyurethane coating. What the polyester lacks in tensile strength compared to nylon it makes up for in its UV resistance, low temperature resilience and hydrophilic nature which is an important factor for high altitude flight. 
 
+The lowest air temperature expected is -64 C which is pretty cold! Given this is completely new territory I moved like Murphy and acted like everything was trying to kill me. I assumed that absorbed moisture in the fabrics would freeze into crystals that potentially compromise the structural integrity of the fabric. This made polyester the safer choice as it should have better resistance to lower temperatures, and unlike nylon, it will not absorb moisture on the molecular level. There is no easy way to verify this choice. Polyester is quite inflexible compared to nylon which may cause problems. There are 1000 ways this design could fail and only 1 way it could succeed... How terrifying!
+
+Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to truly act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the ballute remain inflated with a lower rigidity? 
 
