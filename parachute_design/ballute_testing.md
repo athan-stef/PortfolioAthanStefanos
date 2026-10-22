@@ -58,5 +58,41 @@ The lowest air temperature expected is -64 C which is pretty cold! Given this is
 
 ### Fabric Porosity
 
-Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the ballute remain inflated with a lower rigidity? Upon initial consideration as long as the mass of air lost through the fabric is balanced by air through the inlets the ballute should stay inflated. The mass flow rate of air through the ballute walls can be approximated by the following equation. ( i dont know this, going to research it )
+Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the ballute remain inflated with a lower rigidity? Upon initial consideration as long as the mass of air lost through the fabric is balanced by air through the inlets the ballute should stay inflated. To approximate mass flow through the fabric a porous medium approximation for the expected pressure difference across the ballute walls should be conducted. The flow will be highly turbulent so the standard linear Darcy's Law will not suffice. The [Forchheimer non-linearity](https://www.simscale.com/knowledge-base/predict-darcy-and-forchheimer-coefficients-for-perforated-plates-using-analytical-approach/) must be added and is seen below in it's 1-dimensional form.
+
+$$
+-\delta P = \mu d L u_D + \frac{\rho}{2} f L u^2
+$$
+- p: pressure drop
+- $$\mu$$: fluid viscosity
+- d: Darcy linear viscous coefficient
+- L: fabric thickness
+- $$u_D = Q/A$$: Darcy velocity
+- $$\rho$$: fluid density
+- f: Forchheimer coefficient
+
+For this highly turbulent flow the viscous linear term can be neglected. The Forchheimer coefficient is given by 
+
+$$
+f=\frac{k}{L}
+$$
+
+Where k is the pressure resistance factor which can be given by
+
+$$
+k = [0.707*(1-\phi)^{0.375}+1-\phi ^2]*\frac{1}{\phi^2}
+$$
+
+$$\phi$$ is the fabric porosity which is the pore area to total area ratio. For non circular holes the hydraulic diameter can be given by
+
+$$
+d_h = \frac{4 \times open \ area}{total\  area}
+$$
+
+This follows Idelchik's method which is available for $0 < \frac{L}{d_h} < 0.015$ and $Re > 10^5$
+
+Phew, that was a lot, I guess I should've expected that. Overall the equation is quite simple though and behaves as expected in relation to medium thickness and Darcy velocity. The real ugly stuff is the empirical estimation, which are rarely pretty. I don't have any fabric at the moment but I problem I am anticipating is calculating porosity. Ripstop nylon is quite tightly woven, would I even be able to accurately estimate it's porosity? Is this entire theoretical mass flow approximation pointless due to the physical inaccuracies that will be introduced? Why do I do anything in this infinite universe??? 
+
+Well I at least feel like I can tackle that porosity question. tbc....
+
 
