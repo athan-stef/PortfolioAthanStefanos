@@ -1,4 +1,6 @@
 # Ballute Testing
+[!NOTE]
+This is a journal of sorts detailing the thought process in this project and is intentionally unserious in nature. It is a way for me to keep track of design rationalisations and have some fun :D
 ## Brief
 During my time at Monash High Powered Rocketry I designed a high alttitude recovery parachute. This is a novel concept called a ballute. For more details see the [report section](../ballute.md) I wrote on it. 
 
