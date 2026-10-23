@@ -38,7 +38,7 @@ Comparing this to the potential flow around a cylinder (Due to high Re) the simi
 
 However the more complex wake characteristics apparent in the CFD simulation are not present for standard cylinder flow. Perhaps looking at a triangular bluff body will reveal the mechanism behind these formations. From a [CFD study on flow fields around equilateral triangles](https://www.tandfonline.com/doi/full/10.1080/19942060.2020.1721332#d1e2168) some further insight can be gained. 
 
-<img src="triangle_CFD.jpg" alt="Description of image" height="400">
+<img src="triangle_CFD.jpg" alt="Triangle Bluff Body CFD" height="400">
 
 We can see here the flow has a significant free shear layer similar to the ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation (is that what it's called?). The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the ballute and the spanwise domain walls are causing artificial acceleration of the flow which may exaggerate actual flow acceleration.
 
@@ -93,8 +93,13 @@ $$
 
 This follows Idelchik's method which is available for $0 < \frac{L}{d_h} < 0.015$ and $Re > 10^5$
 
-Phew, that was a lot, I guess I should've expected that. Overall the equation is quite simple though and behaves as expected in relation to medium thickness and Darcy velocity. The real ugly stuff is the empirical estimation, which are rarely pretty. I don't have any fabric at the moment but I problem I am anticipating is calculating porosity. Ripstop nylon is quite tightly woven, would I even be able to accurately estimate it's porosity? Is this entire theoretical mass flow approximation pointless due to the physical inaccuracies that will be introduced? Why do I do anything in this infinite universe??? 
+Phew, that was a lot, I guess I should've expected that. Overall the equation is quite simple though and behaves as expected in relation to medium thickness and Darcy velocity. The real ugly stuff is the empirical estimation, which are rarely pretty. I don't have any fabric at the moment but a problem I am anticipating is calculating porosity. Ripstop nylon is quite tightly woven, would I even be able to accurately estimate it's porosity? Is this entire theoretical mass flow approximation pointless due to the physical inaccuracies that will be introduced? Why do I do anything in this infinite universe??? 
 
-Well I at least feel like I can tackle that porosity question. tbc....
+Well at least I feel like I can tackle that porosity question... 
+
+Here is a photo of some 70 GSM ripstop nylon I have lying around compared to my slightly wounded thumb. Clearly the 'pores' are at a scale where I need a microscope to confidently measure them. So, given this project isn't exactly life or death I am going to source some approximate characteristics of ripstop nylon.
+
+<img src="nylon_por_ex.jpg" alt="Nylon Porosity Example" height="300">
+
 
 
