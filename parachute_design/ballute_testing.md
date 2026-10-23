@@ -106,7 +106,7 @@ But, if I assume the fabric is entirely made of nylon with no pores then I can f
 This means we can equate our weight fraction to our void fraction assuming the fibres don't have an egregious amount of space inside them for some reason (they don't).
 
 $$
-\phi = \frac{V_{Void}}{V_{Total}} = 1 - \frac{m_{fabric}}{m_{solid}} = 0.586\ or\ 58.6\%
+\phi = \frac{V_{Void}}{V_{Total}} = 1 - \frac{m_{fabric}}{m_{solid}} = 0.586\ or\ 58.6 \\%
 $$
 
 This value is right in the range I am expecting, nice! Maybe you aren't so bad after all steely kitchen scale.
