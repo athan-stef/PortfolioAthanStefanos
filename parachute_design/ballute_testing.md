@@ -101,13 +101,13 @@ Here is a photo of some 70 GSM ripstop nylon I have lying around compared to my 
 
 <img src="nylon_por_ex.jpg" alt="Nylon Porosity Example" height="300">
 
-But, if I assume the fabric is entirely made of nylon with no pores then I can find the weight it should be, hence the weight that the pores remove! Like a missile or something. The fabric weighs 30 grams on my kitchen scale, which arguably is lacking some precision, whatever. The fabric is 1.01 x 0.45 x 0.0004 m and weighs 30 grams. Nylon 66 is about 1.14 $g/cm^3$, so with a volume of 181.8 $cm^3$ the fabric should actually weigh 207.26 g. Damn! That is a lot heavier than I thought, fabric is cool! 
+But, if I assume the fabric is entirely made of nylon with no pores then I can find the weight it should be, hence the weight that the pores remove! Like a missile or something. The fabric weighs 30 grams on my kitchen scale, which arguably is lacking some precision, whatever. The fabric is 1.01 x 0.45 x 0.00014 m and weighs 30 grams. Nylon 66 is about 1.14 $g/cm^3$, so with a volume of 63.63 $cm^3$ the fabric should actually weigh 72.5 g.
 
 This means we can equate our weight fraction to our void fraction assuming the fibres don't have an egregious amount of space inside them for some reason (they don't).
 
 $$
-\phi = \frac{V_{Void}}{V_{Total}} = \frac{m_{fabric}}{m_{solid}} = 0.165\ or\ 16.5%
+\phi = \frac{V_{Void}}{V_{Total}} = 1 - \frac{m_{fabric}}{m_{solid}} = 0.586\ or\ 58.6%%
 $$
 
-hmmmm... tbc...
+This value is right in the range I am expecting, nice! Maybe you aren't so bad after all steely kitchen scale.
 
