@@ -88,7 +88,10 @@ $$
 $$\phi$$ is the fabric porosity which is the pore area to total area ratio. For non circular holes the hydraulic diameter can be given by
 
 $$
-d_h = \frac{4 \times open \ area}{total\  area}
+d_h = \frac{4 \times open \ area}{wet\  perimeter}
+$$
+$$
+d_h = \frac{4 \times open\ volume}{wet\ surface\ area}
 $$
 
 This follows Idelchik's method which is available for $0 < \frac{L}{d_h} < 0.015$ and $Re > 10^5$
@@ -121,6 +124,6 @@ $$
 f = \frac{k}{L} = \frac{3.391}{00.00014} = 24222.8\ m^{-1}
 $$
 
-
+Given the flow regime of the ballute is at a very high Reynolds number I am going to neglect the Linear Darcy term and only use the Forchheimer quadratic term for this calculation.
 
 
