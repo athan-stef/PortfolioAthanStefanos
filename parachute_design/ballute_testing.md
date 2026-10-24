@@ -111,3 +111,16 @@ $$
 
 This value is right in the range I am expecting, nice! Maybe you aren't so bad after all steely kitchen scale.
 
+Now to find the Forchheimer parameter we have
+
+$$
+k = [0.707*(1-\phi)^{0.375}+1-\phi ^2]*\frac{1}{\phi^2} = 3.391
+$$
+
+$$
+f = \frac{k}{L} = \frac{3.391}{00.00014} = 24222.8\ m^{-1}
+$$
+
+
+
+
