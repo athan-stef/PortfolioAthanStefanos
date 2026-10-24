@@ -114,7 +114,7 @@ $$
 
 This value is right in the range I am expecting, nice! Maybe you aren't so bad after all steely kitchen scale.
 
-Now to find the Forchheimer parameter we have
+Now to find the Forchheimer coefficient we have
 
 $$
 k = [0.707*(1-\phi)^{0.375}+1-\phi ^2]*\frac{1}{\phi^2} = 3.391
@@ -124,6 +124,4 @@ $$
 f = \frac{k}{L} = \frac{3.391}{00.00014} = 24222.8\ m^{-1}
 $$
 
-Given the flow regime of the ballute is at a very high Reynolds number I am going to neglect the Linear Darcy term and only use the Forchheimer quadratic term for this calculation.
-
-
+The Idelchik approach assumes that Darcy's coefficient is zero and given I expect the flow to be highly turbulent, assuming an inertially driven flow is not unreasonable. TBC....
