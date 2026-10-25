@@ -63,7 +63,7 @@ The lowest air temperature expected is -64 C which is pretty cold! Given this is
 Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the ballute remain inflated with a lower rigidity? Upon initial consideration as long as the mass of air lost through the fabric is balanced by air through the inlets the ballute should stay inflated. To approximate mass flow through the fabric a porous medium approximation for the expected pressure difference across the ballute walls should be conducted. The flow will be highly turbulent so the standard linear Darcy's Law will not suffice. The [Forchheimer non-linearity](https://www.simscale.com/knowledge-base/predict-darcy-and-forchheimer-coefficients-for-perforated-plates-using-analytical-approach/) must be added and is seen below in it's 1-dimensional form.
 
 $$
--\delta P = \mu d L u_D + \frac{\rho}{2} f L u^2
+-\Delta P = \mu d L u_D + \frac{\rho}{2} f L u_D^2
 $$
 - p: pressure drop
 - $$\mu$$: fluid viscosity
@@ -104,7 +104,7 @@ Here is a photo of some 70 GSM ripstop nylon I have lying around compared to my 
 
 <img src="nylon_por_ex.jpg" alt="Nylon Porosity Example" height="300">
 
-But, if I assume the fabric is entirely made of nylon with no pores then I can find the weight it should be, hence the weight that the pores remove! Like a missile or something. The fabric weighs 30 grams on my kitchen scale, which arguably is lacking some precision, whatever. The fabric is 1.01 x 0.45 x 0.00014 m and weighs 30 grams. Nylon 66 is about 1.14 $g/cm^3$, so with a volume of 63.63 $cm^3$ the fabric should actually weigh 72.5 g.
+But, if I assume the fabric is entirely made of nylon with no pores then I can find the weight it should be, hence the weight that the pores remove! Like a missile or something. The fabric weighs 30 grams on my kitchen scale, which arguably is lacking some precision, whatever. The fabric is 1.01 x 0.45 x 0.00014 m and weighs 30 grams. Nylon 66 is about 1.14 $g/cm^3$, so with a volume of 63.63 $cm^3$ the fabric should actually weigh 72.5 g. This approach is valid here because the specific nylon I am trying to use is not treated or calendered, hence the porosity estimation method here is reasonable.
 
 This means we can equate our weight fraction to our void fraction assuming the fibres don't have an egregious amount of space inside them for some reason (they don't).
 
@@ -126,4 +126,40 @@ $$
 
 The Idelchik approach assumes that Darcy's coefficient is zero and given I expect the flow to be highly turbulent, assuming an inertially driven flow is not unreasonable.
 
-Now we need to calculate the expected pressure inside the ballute to derive our pressure difference that will drive the airflow through the walls of the ballute. 
+Now we need to calculate the expected pressure inside the ballute to derive our pressure difference that will drive the airflow through the walls of the ballute. The test flow regime will be at 100 km/h at approximately 100 m ASL. We can do this by finding the isentropic stagnation pressure inside the ballute, which assumes air enters through the inlets and stagnates.
+
+$$
+P_0 = P * (1 + \frac{\gamma - 1}{2}M^2)^{\frac{\gamma}{\gamma - 1}}
+$$
+
+Where $\gamma = 1.4$ and $M = 0.082$, we have a stagnation pressure of 100598 Pa, which is only a 469 Pa increase from the atmospheric pressure! Now we can use this to find a Darcy Velocity from the Forchheimer equation.
+
+$$
+u_d = \sqrt{-\frac{2 \Delta P}{\rho f L}} = \sqrt{-\frac{(2)(-469)}{(1.213)(24222.8)(0.00014)}} = 15.1 m/s 
+$$
+
+Hence, with a 79% scale ballute of surface area 4.577 $m^2$ our volumetric flowrate is $Q = u_D * A = 69.1 m^3/s$. Wow, that is a lot of air, which equates to 83 kg/s.
+
+Now to calculate the mass flowrate into the ballute from the airstream. We have total pressure, we just need total temperature which is given by
+
+$$
+T_T = T*(1+ \frac{\gamma -1}{2}M^2) = 293.542\ K\ or\ 20.392\ C ^\circ \ @\ 20\ C ^\circ \ ambient
+$$
+
+Using the compressible mass flow equation with a discharge coefficient of 0.5 and a total inlet area of 706.481 $cm^2$
+
+$$
+\dot{m} = \frac{Ap_T}{\sqrt{T_t}} \sqrt{\frac{\gamma}{R}}  M(1 + \frac{\gamma - 1}{2} M^2)^{-\frac{\gamma + 1}{2(\gamma - 1)}} \frac{1}{C_D} = 1.184 kg/s
+$$
+
+Hmmm, this is a reasonable result, however it is a far cry from the supposedly exiting 83 kg/s of air. This disparity is quite large and the method of arriving at these results has some key assumptions that make these numbers only useful as a quantitative indicator.
+- A constant ballute internal pressure is assumed
+- airflow through the fabric is assumed to be homogenous
+- the Forchheimer equation is designed for constant apertures that won't fully encapsulate nylon fabric
+- The inlet pressures and airspeeds are assumed to be ideal.
+
+This is far too simple of an analysis to get reliable results but I believe it served its purpose of determining that the ballute fabric must be impermeable to function properly. 
+
+
+
+
