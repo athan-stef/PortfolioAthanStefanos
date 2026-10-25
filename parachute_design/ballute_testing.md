@@ -124,4 +124,6 @@ $$
 f = \frac{k}{L} = \frac{3.391}{00.00014} = 24222.8\ m^{-1}
 $$
 
-The Idelchik approach assumes that Darcy's coefficient is zero and given I expect the flow to be highly turbulent, assuming an inertially driven flow is not unreasonable. TBC....
+The Idelchik approach assumes that Darcy's coefficient is zero and given I expect the flow to be highly turbulent, assuming an inertially driven flow is not unreasonable.
+
+Now we need to calculate the expected pressure inside the ballute to derive our pressure difference that will drive the airflow through the walls of the ballute. 
