@@ -43,9 +43,9 @@ However the more complex wake characteristics apparent in the CFD simulation are
 We can see here the flow has a significant free shear layer similar to the ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation (is that what it's called?). The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the ballute and the spanwise domain walls are causing artificial acceleration of the flow which may exaggerate actual flow acceleration.
 
 ## Geometry Sizing
-The rocket has a designed diameter of 1.465 metres for its intended rocket. Creating a smaller test article is less expensive and easier to test. Implementing Reynolds similarity will match the inertia dominated flow of the ballute in its design case. The desirable characteristic is the diameter so that will be used to inform the required descent velocity for testing. 
+The rocket has a designed diameter of 1.465 metres for its intended rocket. Creating a smaller test article is less expensive and easier to test. Implementing Reynolds similarity will match the inertia dominated flow of the ballute in its design case.
 
-Well, forget all of that. Upon initial iterations not documented here, it seems the parachute needs to be quite large to match the Reynolds number without requiring a ridiculous airspeed. It appears drop testing will not be feasible as the airspeed requirements are too large. As a matter of fact, I am legally bound to 100 km/h on Victorian roads so unless I find a private runway, I am also restricted by testing speeds. It would have been nice to control the diameter over the airspeed but it appears for this high Reynolds number, the road laws will be the limiting factor.
+Upon initial iterations not documented here, it seems the parachute needs to be quite large to match the Reynolds number without requiring a ridiculous airspeed. Drop testing will not be feasible as the airspeed requirements are too large. As a matter of fact, I am legally bound to 100 km/h on Victorian roads so unless I find a private runway, I am also restricted by testing speeds. It would have been nice to control the diameter over the airspeed but it appears for this high Reynolds number, the road laws will be the limiting factor.
 
 $$
 L = \frac{Re \mu}{\rho V} = 1.158 m
@@ -56,11 +56,11 @@ That diameter is a little larger than I'd like which is unfortunate, but it will
 ## Material Selection
 For the original design, the selected material is [70 GSM ripstop polyester](https://www.extremtextil.de/en/polyester-pu-coated-70g-sqm/70278.WEI) with a polyurethane coating. What the polyester lacks in tensile strength compared to nylon it makes up for in its UV resistance, low temperature resilience and hydrophilic nature which is an important factor for high altitude flight. 
 
-The lowest air temperature expected is -64 C which is pretty cold! Given this is completely new territory I moved like Murphy and acted like everything was trying to kill me. I assumed that absorbed moisture in the fabrics would freeze into crystals that potentially compromise the structural integrity of the fabric. This made polyester the safer choice as it should have better resistance to lower temperatures, and unlike nylon, it will not absorb moisture on the molecular level. There is no easy way to verify this choice. Polyester is quite inflexible compared to nylon which may cause problems. There are 1000 ways this design could fail and only 1 way it could succeed... How terrifying!
+For my test article I am going to make the parachute from ripstop nylon for it is more available.
 
 ### Fabric Porosity
 
-Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the ballute remain inflated with a lower rigidity? Upon initial consideration as long as the mass of air lost through the fabric is balanced by air through the inlets the ballute should stay inflated. To approximate mass flow through the fabric a porous medium approximation for the expected pressure difference across the ballute walls should be conducted. The flow will be highly turbulent so the standard linear Darcy's Law will not suffice. The [Forchheimer non-linearity](https://www.simscale.com/knowledge-base/predict-darcy-and-forchheimer-coefficients-for-perforated-plates-using-analytical-approach/) must be added and is seen below in it's 1-dimensional form.
+Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the ballute remain inflated with a lower rigidity? Upon initial consideration as long as the mass of air lost through the fabric is balanced by air through the inlets the ballute should stay inflated. To approximate mass flow through the fabric I will use the Darcy-Forchheimer equation for porous media. The [Darcy-Forchheimer equation](https://www.simscale.com/knowledge-base/predict-darcy-and-forchheimer-coefficients-for-perforated-plates-using-analytical-approach/) can be seen below
 
 $$
 -\Delta P = \mu d L u_D + \frac{\rho}{2} f L u_D^2
@@ -85,26 +85,21 @@ $$
 k = [0.707*(1-\phi)^{0.375}+1-\phi ^2]*\frac{1}{\phi^2}
 $$
 
-$$\phi$$ is the fabric porosity which is the pore area to total area ratio. For non circular holes the hydraulic diameter can be given by
+$$\phi$$ is the fabric porosity which is the pore to total area ratio. For non circular holes the hydraulic diameter can be given by
 
-$$
-d_h = \frac{4 \times open \ area}{wet\  perimeter}
-$$
 $$
 d_h = \frac{4 \times open\ volume}{wet\ surface\ area}
 $$
 
 This follows Idelchik's method which is available for $0 < \frac{L}{d_h} < 0.015$ and $Re > 10^5$
 
-Phew, that was a lot, I guess I should've expected that. Overall the equation is quite simple though and behaves as expected in relation to medium thickness and Darcy velocity. The real ugly stuff is the empirical estimation, which are rarely pretty. I don't have any fabric at the moment but a problem I am anticipating is calculating porosity. Ripstop nylon is quite tightly woven, would I even be able to accurately estimate it's porosity? Is this entire theoretical mass flow approximation pointless due to the physical inaccuracies that will be introduced? Why do I do anything in this infinite universe??? 
-
-Well at least I feel like I can tackle that porosity question... 
+I now need to estimate the porosity of the fabric, I will assume the tiny gaps between the weaves of fabric are similar to the apertures in the Darcy-Forchheimer setup.
 
 Here is a photo of some 70 GSM ripstop nylon I have lying around compared to my slightly wounded thumb. Clearly the 'pores' are at a scale where I need a microscope to confidently measure them.
 
 <img src="nylon_por_ex.jpg" alt="Nylon Porosity Example" height="300">
 
-But, if I assume the fabric is entirely made of nylon with no pores then I can find the weight it should be, hence the weight that the pores remove! Like a missile or something. The fabric weighs 30 grams on my kitchen scale, which arguably is lacking some precision, whatever. The fabric is 1.01 x 0.45 x 0.00014 m and weighs 30 grams. Nylon 66 is about 1.14 $g/cm^3$, so with a volume of 63.63 $cm^3$ the fabric should actually weigh 72.5 g. This approach is valid here because the specific nylon I am trying to use is not treated or calendered, hence the porosity estimation method here is reasonable.
+But, if I assume the fabric is entirely made of nylon with no pores then I can find the weight it should be, hence the weight that the pores remove! Like a missile or something. The fabric weighs 30 grams on my kitchen scale, which arguably is lacking some precision, whatever. The fabric is 1.01 x 0.45 x 0.00014 m and weighs 30 grams. Nylon 66 is about 1.14 $g/cm^3$, so with a volume of 63.63 $cm^3$ the fabric should actually weigh 72.5 g. This approach is valid because the specific nylon I am testing is not treated or calendered, hence the porosity estimation method here is reasonable.
 
 This means we can equate our weight fraction to our void fraction assuming the fibres don't have an egregious amount of space inside them for some reason (they don't).
 
