@@ -179,7 +179,7 @@ As for verifying their strength, for this loading the factor of safety is alread
 ### Material Ammount
 Now to figure out how much fabric I'll need per ballute. I have lost access to my teams CAD server since my graduation so I will have to cowboy bootleg this a little. For reference, here are the sewing templates for your curious eyes (who am i even talking to?).
 
-[Upper Gore Template]()
-[Lower Gore Template]()
-[Lower Gore Vent Template]()
-[Vent Shroud Template]()
+[Upper Gore Template](ug_final.pdf)
+[Lower Gore Template](lg_final.pdf)
+[Lower Gore Vent Template](lg_v_final.pdf)
+
