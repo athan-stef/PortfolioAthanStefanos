@@ -56,7 +56,7 @@ That diameter is a little larger than I'd like which is unfortunate, but it will
 ## Material Selection
 For the original design, the selected material is [70 GSM ripstop polyester](https://www.extremtextil.de/en/polyester-pu-coated-70g-sqm/70278.WEI) with a polyurethane coating. What the polyester lacks in tensile strength compared to nylon it makes up for in its UV resistance, low temperature resilience and hydrophilic nature which is an important factor for high altitude flight. 
 
-For my test article I am going to make the parachute from ripstop nylon for it is more available.
+For my test article I am going to make the parachute from ripstop nylon for it is more available. I wonder what bearing the fabric's porosity has on the function of the ballute?
 
 ### Fabric Porosity
 
@@ -155,6 +155,17 @@ Hmmm, this is a reasonable result, however it is a far cry from the supposedly e
 
 This is far too simple of an analysis to get reliable results but I believe it served its purpose of determining that the ballute fabric must be impermeable to function properly. 
 
+### Final Material Selection
+Given the above findings, I will need to find a coated nylon fabric or something to serve the same purpose. It needs to completely block air and be strong enough to withstand aerodynamic forces at 100 km/h. Using my knowledge of my previous design, the flagging force is going to be the highest force the fabric sees. Which is the flapping of the fabric in the airstream before it inflates. The ARCAS engineers, who I strive to be as epic as one day, estimated the flagging force to be given by $$ F_{flag} = 2qR $$. So for the test case on the highway the expected flagging force can be easily calculated to be
 
+$$
+q = 1/2 \rho V^2 = 467.737 Pa
+$$
+
+$$
+F_{flag} = 2qR = 541.64 N/m
+$$
+
+So now we have our required strength per metre of fabric. This number equates to roughly 60 kg of force per metre of fabric, air is tough!
 
 
