@@ -159,13 +159,19 @@ This is far too simple of an analysis to get reliable results but I believe it s
 Given the above findings, I will need to find a coated nylon fabric or something to serve the same purpose. It needs to completely block air and be strong enough to withstand aerodynamic forces at 100 km/h. Using my knowledge of my previous design, the flagging force is going to be the highest force the fabric sees. Which is the flapping of the fabric in the airstream before it inflates. The ARCAS engineers, who I strive to be as epic as one day, estimated the flagging force to be given by $$ F_{flag} = 2qR $$. So for the test case on the highway the expected flagging force can be easily calculated to be
 
 $$
-q = 1/2 \rho V^2 = 467.737 Pa
+q = \frac12 \rho V^2 = 467.737\ Pa
 $$
 
 $$
-F_{flag} = 2qR = 541.64 N/m
+F_{flag} = 2qR = 541.64\ Nm^{-1}
 $$
 
-So now we have our required strength per metre of fabric. This number equates to roughly 60 kg of force per metre of fabric, air is tough!
+So now we have our required strength. This number equates to roughly 60 kg of force per metre of fabric, air is tough! 
 
+These are two 70 GSM ripstop nylon fabrics that have a polyurethane coating and are cheap! 
 
+[fabric 1](https://www.profabrics.co.uk/products/clearance-proofed-ripstop-nylon?variant=40114973507673)
+
+[fabric 2](https://www.profabrics.co.uk/products/silicone-coated-ripstop?variant=53518531461501&country=AE&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic)
+
+As for verifying their strength, for this loading the factor of safety is already quite high. [Similar fabrics](https://www.paskal.com.au/70-denier-nylon.html) with technical datasheets rate breaking strength in the weft direction at 402 N following AS2001.2.3.1. This testing standard, which I've had the pleasure of reading uses the strip method on a 50 mm sample. This means the breaking strength per metre would sit at approximately 8 kN in the fabrics weakest direction. Something tells me if this ballute sees 8 kN during testing, I'll be seeing pearly gates, so these fabrics will suffice.
