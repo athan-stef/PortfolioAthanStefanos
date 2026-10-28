@@ -195,5 +195,17 @@ For one ballute there are 12 gores, so
 - 6 x Vent Shroud's
 - 1 x End Cap
 
+The target roll of fabric is 150 cm in width, hence the shapes will be laid out as such relative to roll length at a width of 150 cm
+
+|Segment Items|Consumed Roll Length (cm)|
+|-----|--------------------|
+|4 x lower gores|96|
+|2 x lower gores + 2 x vented lower gores|96|
+|4 x vented lower gores|96|
+|5 x upper gores|72|
+|5 x upper gores|72|
+|2 x upper gores + |72|
+
+
   
 
