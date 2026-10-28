@@ -177,9 +177,23 @@ These are two 70 GSM ripstop nylon fabrics that have a polyurethane coating and 
 As for verifying their strength, for this loading the factor of safety is already quite high. [Similar fabrics](https://www.paskal.com.au/70-denier-nylon.html) with technical datasheets rate breaking strength in the weft direction at 402 N following AS2001.2.3.1. This testing standard, which I've had the pleasure of reading uses the strip method on a 50 mm sample. This means the breaking strength per metre would sit at approximately 8 kN in the fabrics weakest direction. Something tells me if this ballute sees 8 kN during testing, I'll be seeing pearly gates, so these fabrics will suffice.
 
 ### Material Ammount
-Now to figure out how much fabric I'll need per ballute. I have lost access to my teams CAD server since my graduation so I will have to cowboy bootleg this a little. For reference, here are the sewing templates for your curious eyes (who am i even talking to?).
+Now to figure out how much fabric I'll need per ballute. For reference, here are the sewing templates for your curious eyes (who am i even talking to?).
 
 [Upper Gore Template](ug_final.pdf) - 
 [Lower Gore Template](lg_final.pdf) - 
 [Lower Gore Vent Template](lg_v_final.pdf)
+
+Each component (bar a circular cap) has 79% scale box dimensions as listed in cm:
+- Upper Gore 72 x 30
+- Lower Gore 96 x 35
+- Vent Shroud 13 x 29
+
+For one ballute there are 12 gores, so
+- 12 x Upper Gores
+- 6 x Lower Gores
+- 6 x Vented Lower Gores
+- 6 x Vent Shroud's
+- 1 x End Cap
+
+  
 
