@@ -10,3 +10,6 @@ Below you can see the design report and presentation that was a culmination of m
 [Design Report](ballute_design_report_athan_stefanos.pdf)
 
 [Presentation](ballute_design_presentation_athan_stefanos.pdf)
+
+If you've made it this far, you can also check out my ballute testing project where I create a scale prototype to test in a car tow test.
+[Ballute Test Project](../parachute_design/ballute_testing.md)
