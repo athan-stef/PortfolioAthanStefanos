@@ -179,6 +179,9 @@ As for verifying their strength, for this loading the factor of safety is alread
 ### Material Ammount
 Now to figure out how much fabric I'll need per ballute. For reference, here are the sewing templates for your curious eyes (who am i even talking to?).
 
+*PS. These sewing templates were quite precarious! The original templates where made from flattening the curved gore within the CAD model. However due to SolidWorks energy minimisation method for flattening doubly-curved surfaces, the sewing shapes warped enough to cause dimensional mismatch between components. I did not forsee this and have learnt from my mistakes. To circumnavigate the distortion from flatenning which could not be tamed, I have made a dodecahedral version of the ballute, and scaled it to match the loss in arc length from a continuous sweep model. This comparison can be seen in the image below.*
+
+*PENDING*
 [Upper Gore Template](ug_final.pdf) - 
 [Lower Gore Template](lg_final.pdf) - 
 [Lower Gore Vent Template](lg_v_final.pdf)
