@@ -183,7 +183,7 @@ Now to figure out how much fabric I'll need per ballute. For reference, here are
 [Lower Gore Template](lgv_sew_dd.pdf) - 
 [Lower Gore Vent Template](lg_v_final.pdf)
 
-*PS. These sewing templates were quite precarious! The original templates where made from flattening the curved gore within the CAD model. However due to SolidWorks energy minimisation method for flattening doubly-curved surfaces, the sewing shapes warped enough to cause dimensional mismatch between components. I did not forsee this and have learnt from my mistakes. To circumnavigate the distortion from flattening which could not be tamed, I have made a dodecahedral version of the ballute, and scaled it to match the loss in arc length from a continuous sweep model. This comparison can be seen in the image below.*
+*PS. These sewing templates were quite precarious! The original templates where made from flattening the curved gore within the CAD model. However, due to SolidWorks energy minimisation method for flattening doubly-curved surfaces, the sewing shapes warped enough to cause dimensional mismatch between components. I did not forsee this and have learnt from my mistakes. To circumnavigate the distortion from flattening which could not be tamed, I have made a dodecahedral version of the ballute, and scaled it to match the loss in arc length from a continuous sweep model. This comparison and an expression for the scaling factor given arc sweep angle can be seen below.*
 
 <img src="dodec_compare.png" alt="Dodecahedron approximation comparison" height="300">
 
