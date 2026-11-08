@@ -179,13 +179,17 @@ As for verifying their strength, for this loading the factor of safety is alread
 ### Material Ammount
 Now to figure out how much fabric I'll need per ballute. For reference, here are the sewing templates for your curious eyes (who am i even talking to?).
 
+[Upper Gore Template](ug_sew_dd.pdf) - 
+[Lower Gore Template](lgv_sew_dd.pdf) - 
+[Lower Gore Vent Template](lg_v_final.pdf)
+
 *PS. These sewing templates were quite precarious! The original templates where made from flattening the curved gore within the CAD model. However due to SolidWorks energy minimisation method for flattening doubly-curved surfaces, the sewing shapes warped enough to cause dimensional mismatch between components. I did not forsee this and have learnt from my mistakes. To circumnavigate the distortion from flattening which could not be tamed, I have made a dodecahedral version of the ballute, and scaled it to match the loss in arc length from a continuous sweep model. This comparison can be seen in the image below.*
 
 <img src="dodec_comapre.png" alt="Dodecahedron approximation comparison" height="300">
 
-[Upper Gore Template](ug_sew_dd.pdf) - 
-[Lower Gore Template](lgv_sew_dd.pdf) - 
-[Lower Gore Vent Template](lg_v_final.pdf)
+$$
+\frac{L_{arc}}{L_L} = \frac{\theta}{2sin(\theta/2)}
+$$
 
 Each component (bar a circular cap) has 79% scale box dimensions as listed in cm:
 - Upper Gore 72 x 30
