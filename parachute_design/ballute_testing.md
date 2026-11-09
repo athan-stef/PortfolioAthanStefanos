@@ -11,7 +11,6 @@ As of 9/11/2026 the following has been completed.
 - Final material selected
 - New dimensionally stable sewing shapes generated
 - Material ammount calculated
-- 
 
 For those that are curious, read onward!
 ## Brief
