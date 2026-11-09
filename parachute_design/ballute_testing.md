@@ -1,14 +1,27 @@
 # Ballute Testing
-> [!NOTE]
->This is a journal of sorts detailing the thought process in this project and is intentionally unserious in nature. It is a way for me to keep track of design rationalisations and have some fun :D
+
+## Abstract
+This project is to create a scale prototype of a novel parachute design called a Ballute. I have already designed the geometry of the Ballute within my student team, now I set out independently to create an aerodynamically similar prototype suitable for car-tow testing.
+
+As of 9/11/2026 the following has been completed.
+- Goals and expectations defined
+- Flow field simulation investigated
+- Prototype sized for Reynold's similarity
+- Fabric porosity investigated
+- Final material selected
+- New dimensionally stable sewing shapes generated
+- Material ammount calculated
+- 
+
+For those that are curious, read onward!
 ## Brief
-During my time at Monash High Powered Rocketry I designed a high alttitude recovery parachute. This is a novel concept called a ballute. For more details see the [report section](../ballute.md) I wrote on it. 
+During my time at Monash High Powered Rocketry I designed a high alttitude recovery parachute. This is a novel concept called a Ballute. For more details see the [report section](../ballute.md) I wrote on it. 
 
 <img src="ballute_diagram_airflow.png" alt="Ballute Airflow Diagram" height="300">
 
-The parachute was designed for a 100,000 ft (30 km) rocket. A ballute was selected over a traditional drogue parachute due to the inability to model low density inflation dynamics that could lead to a irrecoverable canopy collapse. The ballute addresses this problem by using an inflatable design that can inherently not enter an unstable collapsed configuration, using the weight of the rocket to allign vents with incoming airflow. 
+The parachute was designed for a 100,000 ft (30 km) rocket. A Ballute was selected over a traditional drogue parachute due to the inability to model low density inflation dynamics that could lead to a irrecoverable canopy collapse. The Ballute addresses this problem by using an inflatable design that can inherently not enter an unstable collapsed configuration, using the weight of the rocket to allign vents with incoming airflow. 
 
-Now that I have graduated others will carry on the final manufacturing and testing of the ballute. I want to manufacture this parachute at home to test it, purely out of curiosity and passion.
+Now that I have graduated others will carry on the final manufacturing and testing of the Ballute. I want to manufacture this parachute at home to test it, purely out of curiosity and passion.
 
 ## Goals and Expectations
 There are a few things I want to get from manufacturing and testing this parachute.
@@ -17,10 +30,10 @@ There are a few things I want to get from manufacturing and testing this parachu
 Clearly this is a strange parachute, and it will be strange to make. It has been made on the hobby level and [professional level](https://www.youtube.com/watch?v=4WhBfoOEUjY) so it is certainly possible. The student team is currently manufacturing one, the steps are clear and feasible. I wish to try and improve upon this process and find downfalls that can be improved through trial and error.
 
 ### Behaviour
-The ballute is a device made for high subsonic and supersonic airflow, so its behaviour in lower speed regimes is of great interest. Companies such as [Copenhagen Sub-orbitals](https://copenhagensuborbitals.com/) have done low speed drop tests and the ballute performed well, inflating and effectively slowing the payloads descent. Doing further drop tests will validate estimates of inflation pressure at certain flight stages as detailed in the [report](../ballute.md). Additionally, physically verifying the ballute remains positively pressured at low speeds is a great sanity check for the final stage of descent for this parachute before the main parachute deploys.
+The Ballute is a device made for high subsonic and supersonic airflow, so its behaviour in lower speed regimes is of great interest. Companies such as [Copenhagen Sub-orbitals](https://copenhagensuborbitals.com/) have done low speed drop tests and the Ballute performed well, inflating and effectively slowing the payloads descent. Doing further drop tests will validate estimates of inflation pressure at certain flight stages as detailed in the [report](../ballute.md). Additionally, physically verifying the Ballute remains positively pressured at low speeds is a great sanity check for the final stage of descent for this parachute before the main parachute deploys.
 
 ## Aerodynamic Conversation?
-Before manufacturing the ballute I'd like to write some qualitative discussion on [CFD](Ballute%20CFD%20Validation%20Report) that was conducted for this parachute to better understand the flow characteristics around the parachute. While the simulation could be improved, it will still provide valuable insights. 
+Before manufacturing the Ballute I'd like to write some qualitative discussion on [CFD](ballute%20CFD%20Validation%20Report) that was conducted for this parachute to better understand the flow characteristics around the parachute. While the simulation could be improved, it will still provide valuable insights. 
 
 The parameters for the below simulation are:
 * Airspeed 140 $m\ s^{-1}$
@@ -30,7 +43,7 @@ The parameters for the below simulation are:
 
 <img src="ballute_vel_CFD.png" alt="Ballute Airflow CFD" height="300">
 
-The rigid-body airflow simulation of the ballute above, conducted at an airspeed of 129 m/s and an altitude of 27 km, indicates an expected stagnation region along the leading edge of the burble fence, followed by extensive flow separation downstream. This separated flow is the primary mechanism contributing to the ballute’s aerodynamic drag. The resulting pressure distribution may also influence the ballute’s structural deformation, causing the forward surface to flex inward while the aft region bulges outward in response to the lower pressures along the sides.
+The rigid-body airflow simulation of the Ballute above, conducted at an airspeed of 129 m/s and an altitude of 27 km, indicates an expected stagnation region along the leading edge of the burble fence, followed by extensive flow separation downstream. This separated flow is the primary mechanism contributing to the Ballute’s aerodynamic drag. The resulting pressure distribution may also influence the Ballute’s structural deformation, causing the forward surface to flex inward while the aft region bulges outward in response to the lower pressures along the sides.
 
 Comparing this to the potential flow around a cylinder (Due to high Re) the similarities are clear. With stagnation regions fore and aft of the parachute and accelerating flow over the burble fence. 
 
@@ -40,10 +53,12 @@ However the more complex wake characteristics apparent in the CFD simulation are
 
 <img src="triangle_CFD.jpg" alt="Triangle Bluff Body CFD" height="400">
 
-We can see here the flow has a significant free shear layer similar to the ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation (is that what it's called?). The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the ballute and the spanwise domain walls are causing artificial acceleration of the flow which may exaggerate actual flow acceleration.
+We can see here the flow has a significant free shear layer similar to the Ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation. The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the Ballute and the spanwise domain walls are causing artificial acceleration of the flow which may exaggerate actual flow acceleration.
+
+The flow fields detailed above will be of valuable qualitative insight when testing begins. The comparison to literature confirm the validity of the flow structures seen in the Ballute simulation. 
 
 ## Geometry Sizing
-The rocket has a designed diameter of 1.465 metres for its intended rocket. Creating a smaller test article is less expensive and easier to test. Implementing Reynolds similarity will match the inertia dominated flow of the ballute in its design case.
+The rocket has a designed diameter of 1.465 metres for its intended rocket. Creating a smaller test article is less expensive and easier to test. Implementing Reynolds similarity will match the inertia dominated flow of the Ballute in its design case.
 
 Upon initial iterations not documented here, it seems the parachute needs to be quite large to match the Reynolds number without requiring a ridiculous airspeed. Drop testing will not be feasible as the airspeed requirements are too large. As a matter of fact, I am legally bound to 100 km/h on Victorian roads so unless I find a private runway, I am also restricted by testing speeds. It would have been nice to control the diameter over the airspeed but it appears for this high Reynolds number, the road laws will be the limiting factor.
 
@@ -56,11 +71,11 @@ That diameter is a little larger than I'd like which is unfortunate, but it will
 ## Material Selection
 For the original design, the selected material is [70 GSM ripstop polyester](https://www.extremtextil.de/en/polyester-pu-coated-70g-sqm/70278.WEI) with a polyurethane coating. What the polyester lacks in tensile strength compared to nylon it makes up for in its UV resistance, low temperature resilience and hydrophilic nature which is an important factor for high altitude flight. 
 
-For my test article I am going to make the parachute from ripstop nylon for it is more available. I wonder what bearing the fabric's porosity has on the function of the ballute?
+For my test article I am going to make the parachute from ripstop nylon for it is more available. I wonder what bearing the fabric's porosity has on the function of the Ballute?
 
 ### Fabric Porosity
 
-Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the ballute remain inflated with a lower rigidity? Upon initial consideration as long as the mass of air lost through the fabric is balanced by air through the inlets the ballute should stay inflated. To approximate mass flow through the fabric I will use the Darcy-Forchheimer equation for porous media. The [Darcy-Forchheimer equation](https://www.simscale.com/knowledge-base/predict-darcy-and-forchheimer-coefficients-for-perforated-plates-using-analytical-approach/) can be seen below
+Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the Ballute remain inflated with a lower rigidity? Upon initial consideration as long as the mass of air lost through the fabric is balanced by air through the inlets the Ballute should stay inflated. To approximate mass flow through the fabric I will use the Darcy-Forchheimer equation for porous media. The [Darcy-Forchheimer equation](https://www.simscale.com/knowledge-base/predict-darcy-and-forchheimer-coefficients-for-perforated-plates-using-analytical-approach/) can be seen below
 
 $$
 -\Delta P = \mu d L u_D + \frac{\rho}{2} f L u_D^2
@@ -121,7 +136,7 @@ $$
 
 The Idelchik approach assumes that Darcy's coefficient is zero and given I expect the flow to be highly turbulent, assuming an inertially driven flow is not unreasonable.
 
-Now we need to calculate the expected pressure inside the ballute to derive our pressure difference that will drive the airflow through the walls of the ballute. The test flow regime will be at 100 km/h at approximately 100 m ASL. We can do this by finding the isentropic stagnation pressure inside the ballute, which assumes air enters through the inlets and stagnates.
+Now we need to calculate the expected pressure inside the Ballute to derive our pressure difference that will drive the airflow through the walls of the Ballute. The test flow regime will be at 100 km/h at approximately 100 m ASL. We can do this by finding the isentropic stagnation pressure inside the Ballute, which assumes air enters through the inlets and stagnates.
 
 $$
 P_0 = P * (1 + \frac{\gamma - 1}{2}M^2)^{\frac{\gamma}{\gamma - 1}}
@@ -133,9 +148,9 @@ $$
 u_d = \sqrt{-\frac{2 \Delta P}{\rho f L}} = \sqrt{-\frac{(2)(-469)}{(1.213)(24222.8)(0.00014)}} = 15.1 m/s 
 $$
 
-Hence, with a 79% scale ballute of surface area 4.577 $m^2$ our volumetric flowrate is $Q = u_D * A = 69.1 m^3/s$. Wow, that is a lot of air, which equates to 83 kg/s.
+Hence, with a 79% scale Ballute of surface area 4.577 $m^2$ our volumetric flowrate is $Q = u_D * A = 69.1 m^3/s$. Wow, that is a lot of air, which equates to 83 kg/s.
 
-Now to calculate the mass flowrate into the ballute from the airstream. We have total pressure, we just need total temperature which is given by
+Now to calculate the mass flowrate into the Ballute from the airstream. We have total pressure, we just need total temperature which is given by
 
 $$
 T_T = T*(1+ \frac{\gamma -1}{2}M^2) = 293.542\ K\ or\ 20.392\ C ^\circ \ @\ 20\ C ^\circ \ ambient
@@ -148,12 +163,12 @@ $$
 $$
 
 Hmmm, this is a reasonable result, however it is a far cry from the supposedly exiting 83 kg/s of air. This disparity is quite large and the method of arriving at these results has some key assumptions that make these numbers only useful as a quantitative indicator.
-- A constant ballute internal pressure is assumed
+- A constant Ballute internal pressure is assumed
 - airflow through the fabric is assumed to be homogenous
 - the Forchheimer equation is designed for constant apertures that won't fully encapsulate nylon fabric
 - The inlet pressures and airspeeds are assumed to be ideal.
 
-This is far too simple of an analysis to get reliable results but I believe it served its purpose of determining that the ballute fabric must be impermeable to function properly. 
+This is far too simple of an analysis to get reliable results but I believe it served its purpose of determining that the Ballute fabric must be impermeable to function properly. 
 
 ### Final Material Selection
 Given the above findings, I will need to find a coated nylon fabric or something to serve the same purpose. It needs to completely block air and be strong enough to withstand aerodynamic forces at 100 km/h. Using my knowledge of my previous design, the flagging force is going to be the highest force the fabric sees. Which is the flapping of the fabric in the airstream before it inflates. The ARCAS engineers, who I strive to be as epic as one day, estimated the flagging force to be given by $$ F_{flag} = 2qR $$. So for the test case on the highway the expected flagging force can be easily calculated to be
@@ -174,16 +189,16 @@ These are two 70 GSM ripstop nylon fabrics that have a polyurethane coating and 
 
 [fabric 2](https://www.profabrics.co.uk/products/silicone-coated-ripstop?variant=53518531461501&country=AE&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic)
 
-As for verifying their strength, for this loading the factor of safety is already quite high. [Similar fabrics](https://www.paskal.com.au/70-denier-nylon.html) with technical datasheets rate breaking strength in the weft direction at 402 N following AS2001.2.3.1. This testing standard, which I've had the pleasure of reading uses the strip method on a 50 mm sample. This means the breaking strength per metre would sit at approximately 8 kN in the fabrics weakest direction. Something tells me if this ballute sees 8 kN during testing, I'll be seeing pearly gates, so these fabrics will suffice.
+As for verifying their strength, for this loading the factor of safety is already quite high. [Similar fabrics](https://www.paskal.com.au/70-denier-nylon.html) with technical datasheets rate breaking strength in the weft direction at 402 N following AS2001.2.3.1. This testing standard, which I've had the pleasure of reading uses the strip method on a 50 mm sample. This means the breaking strength per metre would sit at approximately 8 kN in the fabrics weakest direction. Something tells me if this Ballute sees 8 kN during testing, I'll be seeing pearly gates, so these fabrics will suffice.
 
 ### Material Amount
-Now to figure out how much fabric I'll need per ballute. For reference, here are the sewing templates for your curious eyes (who am i even talking to?).
+Now to figure out how much fabric I'll need per Ballute. For reference, here are the sewing templates for your curious eyes (who am i even talking to?).
 
 [Upper Gore Template](ug_sew_dd.pdf) - 
 [Lower Gore Template](lgv_sew_dd.pdf) - 
 [Lower Gore Vent Template](lg_v_final.pdf)
 
-*PS. These sewing templates were quite precarious! The original templates where made from flattening the curved gore within the CAD model. However, due to SolidWorks energy minimisation method for flattening doubly-curved surfaces, the sewing shapes warped enough to cause dimensional mismatch between components. I did not forsee this and have learnt from my mistakes. To circumnavigate the distortion from flattening which could not be tamed, I have made a dodecahedral version of the ballute, and scaled it to match the loss in arc length from a continuous sweep model. This comparison and an expression for the scaling factor given arc sweep angle can be seen below.*
+*PS. These sewing templates were quite precarious! The original templates where made from flattening the curved gore within the CAD model. However, due to SolidWorks energy minimisation method for flattening doubly-curved surfaces, the sewing shapes warped enough to cause dimensional mismatch between components. I did not forsee this and have learnt from my mistakes. To circumnavigate the distortion from flattening which could not be tamed, I have made a dodecahedral version of the Ballute, and scaled it to match the loss in arc length from a continuous sweep model. This comparison and an expression for the scaling factor given arc sweep angle can be seen below.*
 
 <img src="dodec_compare.png" alt="Dodecahedron approximation comparison" height="300">
 
@@ -196,7 +211,7 @@ Each component (bar a circular cap) has 79% scale box dimensions as listed in cm
 - Lower Gore 96 x 35
 - Vent Shroud 13 x 29
 
-For one ballute there are 12 gores, so
+For one Ballute there are 12 gores, so
 - 12 x Upper Gores
 - 6 x Lower Gores
 - 6 x Vented Lower Gores
