@@ -12,7 +12,7 @@ Welcome to my portfolio! Please make yourself comfortable and peruse through the
 [Aerospace Graduate Portfolio](AthanStefanosEngPortfolio2025.pdf)
 ### Engineering Design & Test
 
-* [BALLUTE](Ballute%20-%20HPR/ballute.md) - High Alttitude Recovery Parachute
-* [Commercial Jet Aircraft Design](Flight%20Vehicle%20Dynamics%20-%20Uni/flight_vehicle_dynamics.md) - Stick Bug
+* [BALLUTE](Ballute_HPR/ballute.md) - High Alttitude Recovery Parachute
+* [Commercial Jet Aircraft Design](Flight_Vehicle_Dynamics_Uni/flight_vehicle_dynamics.md) - Stick Bug
 * [Finite Element Analysis](FEA-Uni/FEA_uni.md) - Wing Structure & Rocket Body
 * [BALLUTE Manufacturing and Testing](parachute_design/ballute_testing.md) - Work In Progress
