@@ -229,6 +229,11 @@ The target roll of fabric is 150 cm in width, hence the shapes will be laid out 
 |2 x upper gores + |72|
 |6 x vent shroud + 1 x cap|29|
 
+# Manufacturing
+*PENDING*
+
+# Test Setup
+*PENDING*
 
   
 
