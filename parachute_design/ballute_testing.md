@@ -193,9 +193,8 @@ As for verifying their strength, for this loading the factor of safety is alread
 ### Material Amount
 Now to figure out how much fabric I'll need per Ballute. For reference, here are the sewing templates for your curious eyes (who am i even talking to?).
 
-[Upper Gore Template](ug_sew_dd.pdf) - 
-[Lower Gore Template](lgv_sew_dd.pdf) - 
-[Lower Gore Vent Template](lg_v_final.pdf)
+[Upper Gore Template](ballute_IV_lower.pdf) - 
+[Lower Gore Template](ballute_IV_upper.pdf)
 
 *PS. These sewing templates were quite precarious! The original templates where made from flattening the curved gore within the CAD model. However, due to SolidWorks energy minimisation method for flattening doubly-curved surfaces, the sewing shapes warped enough to cause dimensional mismatch between components. I did not forsee this and have learnt from my mistakes. To circumnavigate the distortion from flattening which could not be tamed, I have made a dodecahedral version of the Ballute, and scaled it to match the loss in arc length from a continuous sweep model. This comparison and an expression for the scaling factor given arc sweep angle can be seen below.*
 
@@ -230,8 +229,15 @@ The target roll of fabric is 150 cm in width, hence the shapes will be laid out 
 |6 x vent shroud + 1 x cap|29|
 
 # Manufacturing
-Before I dive into the techniques used to construct this ballute, I will briefly detail a design change I implemented with the goal of improving burble fence inflation and 
-*PENDING*
+Before I dive into the techniques used to construct this ballute, I will briefly detail a design change I implemented with the goal of improving burble fence inflation. 
+
+The initial design had the lower gore transition into the burble fence, then the upper gore would be sewn on the inside. The diagram below demonstrates this with coloured continuous fabric pieces. Once fully complete, this would isolate the volume inside the burble fence which means the seams in the upper gore, or some fabric holes would need to be modified to allow air to fill the fence. It is critical this fence is strongly inflated as it causes flow separation that is fundamental to this geometry's drag generation. The importance of this fences inflation and the ease of manufacturing drove this design change.
+
+IMAGES
+
+The design change makes the upper gore the continuous fabric that transitions into the burble fence. This allows the vent opening to also be integrated with this upper gore. Sewing the upper and lower gores across the vent openings allows air to flow into the burble fence (blue) and have an uninterrupted path into the ballute along the vent shroud (green) in the image below.
+
+<img src="improved_vent_demo.png" alt="Improved vent design" height="300">
 
 # Test Setup
 *PENDING*
