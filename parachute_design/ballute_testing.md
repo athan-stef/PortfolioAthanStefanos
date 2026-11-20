@@ -15,6 +15,8 @@ As of 21/11/2026 the following has been completed.
 - Fabric acquired and cut
 
 For those that are curious, read onward!
+
+*This section will turn into a detailed abstract once the project is complete*
 ## Brief
 During my time at Monash High Powered Rocketry I designed a high alttitude recovery parachute. This is a novel concept called a Ballute. For more details see the [report section](../ballute.md) I wrote on it. 
 
