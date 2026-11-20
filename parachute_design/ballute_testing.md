@@ -230,6 +230,7 @@ The target roll of fabric is 150 cm in width, hence the shapes will be laid out 
 |6 x vent shroud + 1 x cap|29|
 
 # Manufacturing
+Before I dive into the techniques used to construct this ballute, I will briefly detail a design change I implemented with the goal of improving burble fence inflation and 
 *PENDING*
 
 # Test Setup
