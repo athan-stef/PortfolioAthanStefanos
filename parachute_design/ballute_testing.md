@@ -11,6 +11,8 @@ As of 9/11/2026 the following has been completed.
 - Final material selected
 - New dimensionally stable sewing shapes generated
 - Material ammount calculated
+- Design revised to improve airflow
+- Fabric acquired and cut
 
 For those that are curious, read onward!
 ## Brief
@@ -229,15 +231,18 @@ The target roll of fabric is 150 cm in width, hence the shapes will be laid out 
 |6 x vent shroud + 1 x cap|29|
 
 # Manufacturing
-Before I dive into the techniques used to construct this ballute, I will briefly detail a design change I implemented with the goal of improving burble fence inflation. 
+This section will document the manufacturing process for this ballute, it is currently in progress as you read this!
+
+## Design Revision - Airway Improvement
 
 The initial design had the lower gore transition into the burble fence, then the upper gore would be sewn on the inside. The diagram below demonstrates this with coloured continuous fabric pieces. Once fully complete, this would isolate the volume inside the burble fence which means the seams in the upper gore, or some fabric holes would need to be modified to allow air to fill the fence. It is critical this fence is strongly inflated as it causes flow separation that is fundamental to this geometry's drag generation. The importance of this fences inflation and the ease of manufacturing drove this design change.
 
-IMAGES
+<img src="IV_fabric_diagram.png" alt="Fabric Rearrangement" height="300">
 
 The design change makes the upper gore the continuous fabric that transitions into the burble fence. This allows the vent opening to also be integrated with this upper gore. Sewing the upper and lower gores across the vent openings allows air to flow into the burble fence (blue) and have an uninterrupted path into the ballute along the vent shroud (green) in the image below.
 
 <img src="improved_vent_demo.png" alt="Improved vent design" height="300">
+
 
 # Test Setup
 *PENDING*
