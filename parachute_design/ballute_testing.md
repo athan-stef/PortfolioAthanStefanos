@@ -3,7 +3,7 @@
 ## Abstract
 This project is to create a scale prototype of a novel parachute design called a Ballute. I have already designed the geometry of the Ballute within my student team, now I set out independently to create an aerodynamically similar prototype suitable for car-tow testing.
 
-As of 9/11/2026 the following has been completed.
+As of 21/11/2026 the following has been completed.
 - Goals and expectations defined
 - Flow field simulation investigated
 - Prototype sized for Reynold's similarity
