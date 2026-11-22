@@ -2,7 +2,7 @@
 
 Email: athanstefanos@gmail.com
 
-[LinkedIn](www.linkedin.com/in/athanstefanos)
+[www.linkedin.com/in/athanstefanos](www.linkedin.com/in/athanstefanos)
 
 [Resume](AthanStefanosResume.pdf)
 
