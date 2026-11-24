@@ -176,7 +176,7 @@ Hmmm, this is a reasonable result, however it is a far cry from the supposedly e
 This is far too simple of an analysis to get reliable results but I believe it served its purpose of determining that the Ballute fabric must be impermeable to function properly. 
 
 ### Final Material Selection
-Given the above findings, I will need to find a coated nylon fabric or something to serve the same purpose. It needs to completely block air and be strong enough to withstand aerodynamic forces at 100 km/h. Using my knowledge of my previous design, the flagging force is going to be the highest force the fabric sees. Which is the flapping of the fabric in the airstream before it inflates. The ARCAS engineers, who I strive to be as epic as one day, estimated the flagging force to be given by $$ F_{flag} = 2qR $$. So for the test case on the highway the expected flagging force can be easily calculated to be
+Given the above findings, I will need to find a coated nylon fabric or something to serve the same purpose. It needs to completely block air and be strong enough to withstand aerodynamic forces at 100 km/h. Using my knowledge of my previous design, the flagging force is going to be the highest force the fabric sees. Which is the flapping of the fabric in the airstream before it inflates. The ARCAS engineers, who I strive to be as epic as one day, estimated the flagging force to be given by $F_{flag} = 2qR$. So for the test case on the highway the expected flagging force can be easily calculated to be
 
 $$
 q = \frac12 \rho V^2 = 467.737\ Pa
