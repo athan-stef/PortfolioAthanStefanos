@@ -247,9 +247,6 @@ This design change makes the upper gore a continuous fabric piece that transitio
 
 <img src="improved_vent_demo.png" alt="Improved vent design" height="300">
 
-
-# Test Setup
-*PENDING*
-
+*To be continued...*
   
 
