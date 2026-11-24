@@ -237,11 +237,13 @@ This section will document the manufacturing process for this ballute, it is cur
 
 ## Design Revision - Airway Improvement
 
-The initial design had the lower gore transition into the burble fence, then the upper gore would be sewn on the inside. The diagram below demonstrates this with coloured continuous fabric pieces. Once fully complete, this would isolate the volume inside the burble fence prohibiting its passive inflation. It is critical this fence is strongly inflated as it causes flow separation that is fundamental to this geometry's drag generation. The importance of this fences inflation and the ease of manufacturing drove this design change.
+The former design had the lower gore and burble fence as one continuous piece of fabric, with the upper gore being sewn to the lower gore to form the burble fence. Once fully complete, this would isolate the volume inside the burble fence prohibiting its passive inflation. This layout also needed an additional piece of fabric for the vent shroud which increases complexity and created geometry that would cause significant turbulence at the vents.
+
+The below diagram shows the change in fabric arrangement, showing continous pieces as a single colour.
 
 <img src="IV_fabric_diagram.png" alt="Fabric Rearrangement" height="300">
 
-The design change makes the upper gore the continuous fabric that transitions into the burble fence. This allows the vent opening to also be integrated with this upper gore. Sewing the upper and lower gores across the vent openings allows air to flow into the burble fence (blue) and have an uninterrupted path into the ballute along the vent shroud (green) in the image below.
+The design change makes the upper gore a continuous fabric piece that transitions into the burble fence which allows for the vent shroud to be integrated. Sewing the upper and lower gores together across the vent openings allows air to flow into the burble fence (blue) and have an uninterrupted path into the ballute along the vent shroud (green) in the image below.
 
 <img src="improved_vent_demo.png" alt="Improved vent design" height="300">
 
