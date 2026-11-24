@@ -22,7 +22,7 @@ During my time at Monash High Powered Rocketry I designed a high alttitude recov
 
 <img src="ballute_diagram_airflow.png" alt="Ballute Airflow Diagram" height="300">
 
-The parachute was designed for a 100,000 ft (30 km) rocket. A Ballute was selected over a traditional drogue parachute due to the inability to model low density inflation dynamics that could lead to an irrecoverable canopy collapse. The Ballute addresses this problem by using an inflatable design that can inherently not enter an unstable collapsed configuration, using the weight of the rocket to allign vents with incoming airflow. 
+The parachute was designed for a 100,000 ft (30 km) rocket. A Ballute was selected over a traditional drogue parachute due to the inability to model low density inflation dynamics that could lead to an irrecoverable canopy collapse. The Ballute addresses this problem by using an inflatable design that can inherently not enter an unstable collapsed configuration, using the weight of the rocket to allign vents with the airflow. 
 
 Now that I have graduated others will carry on the final manufacturing and testing of the Ballute. I want to manufacture this parachute at home to test it, purely out of curiosity and passion.
 
