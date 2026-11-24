@@ -237,7 +237,7 @@ This section will document the manufacturing process for this ballute, it is cur
 
 ## Design Revision - Airway Improvement
 
-The initial design had the lower gore transition into the burble fence, then the upper gore would be sewn on the inside. The diagram below demonstrates this with coloured continuous fabric pieces. Once fully complete, this would isolate the volume inside the burble fence which means the seams in the upper gore, or some fabric holes would need to be modified to allow air to fill the fence. It is critical this fence is strongly inflated as it causes flow separation that is fundamental to this geometry's drag generation. The importance of this fences inflation and the ease of manufacturing drove this design change.
+The initial design had the lower gore transition into the burble fence, then the upper gore would be sewn on the inside. The diagram below demonstrates this with coloured continuous fabric pieces. Once fully complete, this would isolate the volume inside the burble fence prohibiting its passive inflation. It is critical this fence is strongly inflated as it causes flow separation that is fundamental to this geometry's drag generation. The importance of this fences inflation and the ease of manufacturing drove this design change.
 
 <img src="IV_fabric_diagram.png" alt="Fabric Rearrangement" height="300">
 
