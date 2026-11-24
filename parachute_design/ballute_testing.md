@@ -56,7 +56,7 @@ However the more complex wake characteristics apparent in the CFD simulation are
 
 <img src="triangle_CFD.jpg" alt="Triangle Bluff Body CFD" height="400">
 
-We can see here the flow has a significant free shear layer similar to the Ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation. The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the Ballute and the spanwise domain walls are causing artificial acceleration of the flow which may exaggerate actual flow acceleration.
+We can see here the flow has a significant free shear layer similar to the Ballute where the detached boundary layer from the burble fence creates a harsh gradient between the wake and the free stream. At this point it is wise to mention there is definitely necking in this simulation. The boundaries of the simulation domain are clearly not large enough, the constriction of the flow between the Ballute and the spanwise domain walls are causing artificial acceleration of the flow which may alter pressure and velocity fields.
 
 The flow fields detailed above will be of valuable qualitative insight when testing begins. The comparison to literature confirm the validity of the flow structures seen in the Ballute simulation. 
 
