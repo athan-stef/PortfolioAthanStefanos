@@ -243,7 +243,7 @@ The below diagram shows the change in fabric arrangement, showing continous piec
 
 <img src="IV_fabric_diagram.png" alt="Fabric Rearrangement" height="300">
 
-The design change makes the upper gore a continuous fabric piece that transitions into the burble fence which allows for the vent shroud to be integrated. Sewing the upper and lower gores together across the vent openings allows air to flow into the burble fence (blue) and have an uninterrupted path into the ballute along the vent shroud (green) in the image below.
+This design change makes the upper gore a continuous fabric piece that transitions into the burble fence which allows for the vent shroud to be integrated. Sewing the upper and lower gores together across the vent openings allows air to flow into the burble fence (blue) and have an uninterrupted path into the ballute along the vent shroud (green) in the image below.
 
 <img src="improved_vent_demo.png" alt="Improved vent design" height="300">
 
