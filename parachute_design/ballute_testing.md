@@ -78,7 +78,7 @@ For my test article I am going to make the parachute from ripstop nylon for it i
 
 ### Fabric Porosity
 
-** This next section is what I'd call an indulgence of a curiosity, which cummulated in some weak results that gave me a little insight. I'd recommend scrolling on past to the final material [selection](#final-material-selection) **
+**This next section is what I'd call an indulgence of a curiosity, which cummulated in some weak results that gave me a little insight. I'd recommend scrolling on past to the final material [selection](#final-material-selection)**
 
 Another design consideration is the porosity of the fabric. The aforementioned Polyester is PU coated which gives the fabric an effective porosity of zero. This allows the design to act like a balloon and only lose air through seams and vents. Is it truly necessary to have a non-porous fabric? Would the Ballute remain inflated with a lower rigidity? Upon initial consideration as long as the mass of air lost through the fabric is balanced by air through the inlets the Ballute should stay inflated. To approximate mass flow through the fabric I will use the Darcy-Forchheimer equation for porous media. The [Darcy-Forchheimer equation](https://www.simscale.com/knowledge-base/predict-darcy-and-forchheimer-coefficients-for-perforated-plates-using-analytical-approach/) can be seen below
 
