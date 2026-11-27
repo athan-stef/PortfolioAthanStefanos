@@ -250,7 +250,15 @@ This design change makes the upper gore a continuous fabric piece that transitio
 # Manufacturing
 This section will document the manufacturing methods used to construct the ballute.
 
+## Seams
+All longitudinal seams between gores will be [flat felled seams](https://www.seamwork.com/sewing-tutorials/sewing-flat-felled-seams), with other seams such as attaching the lower and upper gores will be a double straight stitches. There is not much to this
 
-*To be continued...*
+# Thread
+Tex 50 polyester thread is being used for all seams and attachments for this ballute. 
+
+## Shroud Line Attachment
+12 shroud lines need to attach to the parachute for this design. Hollow braided 1.6 mm dyneema line will be used. It will be zig zag stitched onto polyester webbing that is then straight stitched onto the skirt of the lower gores at each seam. 
+
+*PENDING*
   
 
