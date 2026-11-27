@@ -234,10 +234,7 @@ The target roll of fabric is 150 cm in width, hence the shapes will be laid out 
 |2 x upper gores + |72|
 |6 x vent shroud + 1 x cap|29|
 
-# Manufacturing
-This section will document the manufacturing process for this ballute, it is currently in progress as you read this!
-
-## Design Revision - Airway Improvement
+# Design Revision - Airway Improvement
 
 The former design had the lower gore and burble fence as one continuous piece of fabric, with the upper gore being sewn to the lower gore to form the burble fence. Once fully complete, this would isolate the volume inside the burble fence prohibiting its passive inflation. This layout also needed an additional piece of fabric for the vent shroud which increases complexity and created geometry that would cause significant turbulence at the vents.
 
@@ -248,6 +245,11 @@ The below diagram shows the change in fabric arrangement, showing continous piec
 This design change makes the upper gore a continuous fabric piece that transitions into the burble fence which allows for the vent shroud to be integrated. Sewing the upper and lower gores together across the vent openings allows air to flow into the burble fence (blue) and have an uninterrupted path into the ballute along the vent shroud (green) in the image below.
 
 <img src="improved_vent_demo.png" alt="Improved vent design" height="300">
+
+
+# Manufacturing
+This section will document the manufacturing methods used to construct the ballute.
+
 
 *To be continued...*
   
