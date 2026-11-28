@@ -251,13 +251,32 @@ This design change makes the upper gore a continuous fabric piece that transitio
 This section will document the manufacturing methods used to construct the ballute.
 
 ## Seams
-All longitudinal seams between gores will be [flat felled seams](https://www.seamwork.com/sewing-tutorials/sewing-flat-felled-seams), with other seams such as attaching the lower and upper gores will be a double straight stitches. There is not much to this
+All longitudinal seams between gores will be [flat felled seams](https://www.seamwork.com/sewing-tutorials/sewing-flat-felled-seams). All seams where this is not possible will be double straight stitches.
 
 # Thread
 Tex 50 polyester thread is being used for all seams and attachments for this ballute. 
 
 ## Shroud Line Attachment
-12 shroud lines need to attach to the parachute for this design. Hollow braided 1.6 mm dyneema line will be used. It will be zig zag stitched onto polyester webbing that is then straight stitched onto the skirt of the lower gores at each seam. 
+12 shroud lines need to attach to the parachute for this design. Hollow braided 1.6 mm dyneema line will be used.
+
+### Attachment to the skirt
+The dyneema line will be zig-zag stitched onto a section of polyester webbing which will be box stitched onto the skirt of the parachute at each seam. The ASTM standard D1683 proposes a formula to estimate the breaking strength of sewn seams for a 301 lockstitch machine. 
+
+$$
+F_{seam} = k \times F_{thread} \times \omega \times L
+$$
+
+Where $F_{seam}$ is seam strength per 10 mm, $k$ is the 301 lockstitch factor of 1.5, $F_{thread}$ is the thread breaking strength, and $\omega$ is stitches per 10 mm, and L is the stitch length.Characteristics of the airflow and the drag coefficient is known for the ballute which allows a drag force of 481.9 N (49.1 kg) to be calculated. 
+
+Using this force with a 2.5 factor of safety to account for uneven loading, a xx N polyester thread, and a 2.6 mm stitch length the required total length of stitches must be...
+
+$$
+L = \frac{(481.9*2.5)/12}{(1.5)(xx)(3.85)} = 
+$$
+
+*PENDING*
+### Attachment to the bridle
+All 12 lines will be finger spliced onto 2 steel rings which will be attached to a swivel link with a dyneema sling. 
 
 *PENDING*
   
